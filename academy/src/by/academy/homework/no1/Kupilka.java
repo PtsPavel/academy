@@ -1,4 +1,4 @@
-package by.academy.lesson2;
+package by.academy.homework.no1;
 
 import java.util.Scanner;
 
@@ -37,6 +37,5 @@ public class Kupilka {
             double sumPokupki = sum - ((sum / 100) * 20);
             System.out.println("Сумма покупки со скидкой = " + sumPokupki);
         }
-
     }
 }
