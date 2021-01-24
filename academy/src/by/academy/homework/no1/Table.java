@@ -2,12 +2,11 @@ package by.academy.homework.no1;
 
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.Random;
+
 
 public class Table {
 
 	public static void main(String[] args) {
-		Random random = new Random();
 		Scanner num = new Scanner(System.in).useLocale(Locale.ENGLISH);
 		System.out.println("Введите целочисленное значение от 1 до 9 : ");
 		int a = num.nextInt();
