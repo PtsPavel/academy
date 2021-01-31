@@ -1,4 +1,4 @@
-package by.academy.lesson3.cat;
+package by.academy.classwork.lesson3.cat;
 
 public class Application {
 

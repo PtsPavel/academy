@@ -1,9 +1,9 @@
-package by.academy.lesson4;
+package by.academy.classwork.lesson4;
 
 public class Test12 {
 
 	public static void main(String[] args) {
-		// Найти произведение двузначных нечетных чисел кратных 13
+		// пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ 13
 
 		for (int i = 10; i < 100; i++) {
 			for (int j = 10; j < 100; j++) {

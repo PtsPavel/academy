@@ -1,4 +1,4 @@
-package by.academy.lesson3;
+package by.academy.classwork.lesson3;
 
 public class Time {
 
@@ -27,7 +27,7 @@ public class Time {
 		
 		
 		
-		System.out.println(w + " недель " + days + " дней " + hrs + " часов " + min + " минут " + sec + " секунд ");
+		System.out.println(w + " пїЅпїЅпїЅпїЅпїЅпїЅ " + days + " пїЅпїЅпїЅпїЅ " + hrs + " пїЅпїЅпїЅпїЅпїЅ " + min + " пїЅпїЅпїЅпїЅпїЅ " + sec + " пїЅпїЅпїЅпїЅпїЅпїЅ ");
 		
 		// TODO Auto-generated method stub
 

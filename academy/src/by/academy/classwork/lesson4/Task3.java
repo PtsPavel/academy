@@ -1,4 +1,4 @@
-package by.academy.lesson4;
+package by.academy.classwork.lesson4;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class Task3 {
 
 	public static void main(String[] args) {
-		// Составьте программу,
-		// которая вычисляет произведение чисел от 1 до n.n вводится с клавиатуры.
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ,
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ 1 пїЅпїЅ n.n пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 		Scanner num = new Scanner(System.in).useLocale(Locale.ENGLISH);
-		System.out.println("Введите целочисленное значение : ");
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ : ");
 		long n = num.nextInt();
 
 		String s = "";
