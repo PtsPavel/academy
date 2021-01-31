@@ -6,39 +6,39 @@ import java.util.Scanner;
 public class Switch {
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in).useLocale(Locale.ENGLISH);
-        System.out.println("Введите тип данных int, double, float, char или String: ");
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ int, double, float, char пїЅпїЅпїЅ String: ");
         String a = num.nextLine();
 
         switch (a) {
             case "int":
-                System.out.println("Введите число соответствующего типа: ");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ: ");
                 int b = num.nextInt();
                 int ost;
                 ost = b % 2;
                 System.out.println(ost);
                 break;
             case "double":
-                System.out.println("Введите число соответствующего типа: ");
-                double с = num.nextDouble();
+                System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ: ");
+                double c = num.nextDouble();
                 double proc;
-                proc = с / 100 * 70;
+                proc = c / 100 * 70;
                 System.out.println(proc);
                 break;
             case "float":
-                System.out.println("Введите число соответствующего типа: ");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ: ");
                 float d = num.nextFloat();
                 float kv = (float) Math.pow(d, 2);
                 System.out.println(kv);
                 break;
             case "char":
-                System.out.println("Введите один произвольный символ: ");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: ");
                 String e = num.nextLine();
                 char cod = e.charAt(0);
                 int cod1 = (int) cod;
                 System.out.println(cod1);
                 break;
             case "String":
-                System.out.println("Введите произвольный набор данных: ");
+                System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: ");
                 String f = num.nextLine();
                 System.out.println("Hello " + f);
                 break;

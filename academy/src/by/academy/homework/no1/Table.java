@@ -3,7 +3,6 @@ package by.academy.homework.no1;
 import java.util.Locale;
 import java.util.Scanner;
 
-
 public class Table {
 
 	public static void main(String[] args) {
