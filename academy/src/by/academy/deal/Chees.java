@@ -5,7 +5,11 @@ public class Chees extends Product{
 	String type;
 	Double age;
 	Double waight;
-    public Double getWaight() {
+    
+	public Chees() {
+		super();
+	}
+	public Double getWaight() {
 		return waight;
 	}
 	public void setWaight(Double waight) {
@@ -22,9 +26,5 @@ public class Chees extends Product{
 	}
 	public void setAge(Double age) {
 		this.age = age;
-	}
-	public Chees() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
 }

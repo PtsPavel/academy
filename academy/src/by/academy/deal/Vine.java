@@ -1,11 +1,15 @@
 package by.academy.deal;
 
 public class Vine extends Product{
+	
 	Double gradus;
 	String color;
 	Integer age;
-
 	Integer voluem;
+	
+	public Vine() {
+		super();
+	}
 	public Integer getVoluem() {
 		return voluem;
 	}
@@ -29,10 +33,6 @@ public class Vine extends Product{
 	}
 	public void setAge(Integer age) {
 		this.age = age;
-	}
-	public Vine() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
 }
 
