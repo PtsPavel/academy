@@ -1,4 +1,4 @@
-package by.academy.classwork.lesson6.classwork;
+package by.academy.classwork.lesson6;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -6,9 +6,9 @@ import java.util.regex.Pattern;
 public class RegExp {
 
 	public static void main(String[] args) {
-		//Дана строка:
+		//пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ:
 		//" Hey      There!     How      Are you doing"   ;
-		//оставить лишь 1 пробел между слов.
+		//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 1 пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ.
 		String str = " Hey      There!     How      Are you doing";
 		
         System.out.println(str.replaceAll("\\s+" , " ").trim());
