@@ -42,4 +42,11 @@ public class Product {
 	public void setQuantity(Integer quantity) {
 		this.quantity = quantity;
 	}
+	
+	public Double discount() {
+		if (quantity > 20) {
+		return price * 0.9; 
+		} 
+		return price;
+	}
 }

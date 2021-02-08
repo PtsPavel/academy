@@ -27,4 +27,11 @@ public class Chees extends Product{
 	public void setAge(Double age) {
 		this.age = age;
 	}
+	
+	public Chees discount() {
+		if (age > 20) {
+		return price * 1.2; 
+		}
+		return
+	}
 }

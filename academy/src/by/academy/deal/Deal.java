@@ -42,4 +42,5 @@ public class Deal {
 	public void setDealDate(String dealDate) {
 		this.dealDate = dealDate;
 	}
+	
 }
