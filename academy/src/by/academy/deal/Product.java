@@ -8,15 +8,18 @@ public abstract class Product {
 	Integer quantity = 0;
 
 	double discount = 1;
+
 	Product() {
 		super();
 	}
+
 	Product(String name, Double price, String manufacture, Integer quantity) {
 		this.name = name;
 		this.price = price;
 		this.manufacture = manufacture;
 		this.quantity = quantity;
 	}
+
 	// create discount
 	public double disount() {
 		if (quantity > 5) {
@@ -57,6 +60,10 @@ public abstract class Product {
 		this.quantity = quantity;
 	}
 
-	// create discount for Wine
 	public abstract double discount();
+
+	public double calcFinalPrice() {
+		return quantity * price * discount(); 
+
+	}
 }
