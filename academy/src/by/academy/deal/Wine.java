@@ -1,65 +1,55 @@
 package by.academy.deal;
 
-public class Wine extends Product{
-	Double volume;
-	Integer age;
-	private String color;
+public class Wine extends Product {
+	private String country;
+	private int age;
 
-	public Wine(double price, String name, String manufacture, int quantity, String color, Integer age) {
-		super(name, price, manufacture, quantity);
-		this.color = color;
-		this.age = age;
+	public Wine() {
+		super();
 	}
 
-	// create discount for Wine
+	public Wine(String name, Double price, String manufacture, Integer quantity, String country, int age) {
+		super(name, price, manufacture, quantity);
+		this.age = age;
+		this.country = country;
+	}
+
 	@Override
 	public double discount() {
-		if (color.equals("red")) {
-			discount = 1 - 0.17;
-		} else if (color.equals("white")) {
-			discount = 1 - 0.1;
-		} else if (color.equals("triTopora")) {
-			discount = 1 - 0.5;
-		} else if (age >= 5){
-			discount = 1 - 0.15;
+		if (country.equals("Italy")) {
+			return 0.83;
+		} else {
+			return 1;
 		}
-
-		return discount;
 	}
 
-	public void Volume(double volume) {
-		this.volume = volume;
-	}
-
-	public void Color(String color) {
-		this.color = color;
-	}
-
-	public void Age(Integer age) {
-		this.age = age;
-	}
-
-	public Double getVolume() {
-		return volume;
-	}
-
-	public void setVolume(Double volume) {
-		this.volume = volume;
-	}
-
-	public String getColor() {
-		return color;
-	}
-
-	public void setColor(String color) {
-		this.color = color;
-	}
-	public Integer getAge() {
+	public int getAge() {
 		return age;
 	}
 
-	public void setAge(Integer age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	@Override
+	public String toString() {
+		final StringBuilder sb = new StringBuilder("Вино{");
+		sb.append("наименование - ").append(getName());
+		sb.append(", цена - ").append(getPrice()).append("руб");
+		sb.append(", производитель - ").append(getManufacture());
+		sb.append(", количество - ").append(getQuantity()).append(" шт.");
+		sb.append(", страна - ").append(country);
+		sb.append(", выдержка - ").append(age).append(" лет");
+		sb.append('}');
+		return sb.toString();
+	}
 }
+
