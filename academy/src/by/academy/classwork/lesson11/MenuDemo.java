@@ -8,7 +8,7 @@ public class MenuDemo {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		printMenu();
+
 		
 
 	}
