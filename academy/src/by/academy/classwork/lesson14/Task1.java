@@ -1,9 +1,8 @@
 package by.academy.classwork.lesson14;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-
-import by.academy.classwork.lesson14.HeavyBox;
 
 public class Task1 {
 
